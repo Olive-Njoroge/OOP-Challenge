@@ -55,3 +55,12 @@ class Pet:
             print(f"{self.name} knows these tricks: {', '.join(self.tricks)}")
         else:
             print(f"{self.name} hasn't learned any tricks yet.")
+            
+            
+if __name__ == "__main__":
+    my_pet = Pet("pupy")
+    my_pet.eat()
+    my_pet.play()
+    my_pet.get_status()
+    my_pet.train("roll over")
+    my_pet.show_tricks()            
